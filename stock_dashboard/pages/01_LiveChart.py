@@ -11,7 +11,7 @@ import streamlit as st
 # sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 # from utils import _get_history
 
-st.title("�� Live Chart")
+st.title("Live Chart")
 
 @st.cache_data
 def nukk_def():
