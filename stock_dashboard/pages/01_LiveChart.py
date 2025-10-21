@@ -46,7 +46,7 @@ with col1:
 
 try:
     try:
-        data = pd.read_csv(f'Data/{symbol}.csv')    
+        data = pd.read_csv(f'stock_dashboard/Data/{symbol}.csv')    
     except:
         try:
             data = pd.read_csv(database_root_path + f'Company/{symbol}.csv')
