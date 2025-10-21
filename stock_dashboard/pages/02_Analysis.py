@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-st.markdown("<h1 style='text-align: center;'>�� Stock Analysis</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'> Stock Analysis</h1>", unsafe_allow_html=True)
 
 def html_table(data,index = True):
     styled_table = data.style.set_table_styles(
@@ -79,7 +79,7 @@ if "stock_price" in st.session_state:
     performance_metrics = html_table(performance_metrics,index = False)
 
     # Display in Streamlit
-    st.markdown("### �� Performance Metrics")
+    st.markdown("### Performance Metrics")
     st.write(performance_metrics.to_html(escape=False), unsafe_allow_html=True)
 
 
