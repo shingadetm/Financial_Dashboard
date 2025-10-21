@@ -74,7 +74,7 @@ except:
 with col1b:
     start_date = st.date_input(
         "Start Date",
-        value=date.today() - timedelta(days=365),
+        value= data['Date'].min(), #date.today() - timedelta(days=365),
         min_value=data['Date'].min(),
         max_value=date.today()-timedelta(days=1)
     )
