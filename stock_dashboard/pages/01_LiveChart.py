@@ -28,7 +28,9 @@ def nukk_def():
 
 database_root_path = 'D:/Database/Share_Market/'
 # Sample list of stocks or items
-stock_list = ["NIFTY 50", "RELIANCE", "TCS", "INFY", "HDFC", "ICICIBANK", "SBIN", "WIPRO", "HINDUNILVR"]
+# stock_list = ["NIFTY 50", "RELIANCE", "TCS", "INFY", "HDFC", "ICICIBANK", "SBIN", "WIPRO", "HINDUNILVR"]
+stock_list = ["NIFTY 50"]
+
 
 
 
